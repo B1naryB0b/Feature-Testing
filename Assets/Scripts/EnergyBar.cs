@@ -18,6 +18,6 @@ public class EnergyBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        slider.value = Time.deltaTime * drainRate;
+        slider.value -= Time.deltaTime * drainRate;
     }
 }
