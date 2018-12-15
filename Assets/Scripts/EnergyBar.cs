@@ -7,17 +7,31 @@ public class EnergyBar : MonoBehaviour
 {
     public Slider slider;
 
-    public float drainRate = 5;
+    public float movementDrainRate = 5;
+    public float warpDrainRate = 20;
+
+    PlayerMovement playerMovement;
+    GameObject player;
 
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerMovement = player.GetComponent<PlayerMovement>();
         slider.value = slider.maxValue;
     }
 
     // Update is called once per frame
     void Update()
     {
-        slider.value -= Time.deltaTime * drainRate;
+        if (playerMovement.isMoving)
+        {
+            slider.value -= movementDrainRate * Time.deltaTime;
+        }
+
+        if (playerMovement.isWarp)
+        {
+            slider.value -= warpDrainRate * Time.deltaTime;
+        }
     }
 }

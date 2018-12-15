@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
+
     float force;
+
     public float warpDrive;
     public float standardForce;
 
@@ -12,7 +14,14 @@ public class PlayerMovement : MonoBehaviour {
 
     public float distFromMouse;
 
-    bool isWarp;
+    [HideInInspector]
+    public bool isWarp;
+
+    [HideInInspector]
+    public bool isMoving;
+    [HideInInspector]
+    public bool playerMovementEnabled;
+
     Rigidbody2D rb;
     Vector2 direction;
 
@@ -26,6 +35,7 @@ public class PlayerMovement : MonoBehaviour {
     {
         FaceMouse();
         Controls();
+
     }
 
     void FaceMouse()
@@ -44,9 +54,8 @@ public class PlayerMovement : MonoBehaviour {
         {
             isWarp = true;
         }
-
-        if (Input.GetMouseButton(0))
-        {           
+        else
+        {
             isWarp = false;
         }
 
@@ -54,10 +63,12 @@ public class PlayerMovement : MonoBehaviour {
         if ((direction.magnitude < distFromMouse) || !(Input.GetMouseButton(0) || Input.GetMouseButton(1)))
         {
             force = 0;
+            isMoving = false;
         }
         else
         {
             force = isWarp ? warpDrive : standardForce;
+            isMoving = true;
         }
 
         rb.AddForce(force * direction.normalized);
