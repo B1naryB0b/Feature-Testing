@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\EnergyBar.cs" />
+    <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\GravityBehaviour.cs" />
     <Compile Include="Assets\Scripts\MassScalingScript.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
