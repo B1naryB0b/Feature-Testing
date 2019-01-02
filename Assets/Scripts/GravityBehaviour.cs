@@ -11,8 +11,6 @@ public class GravityBehaviour : MonoBehaviour
     //All entities that exert a force on the object
     public GameObject[] entities;
 
-    //Transform of all entities that are exerting a force on this gameobject
-    Vector3[] entityTransform;
     //Magnitude of the force applied
     float forceMagnitude;
     //Direction of the force applied
@@ -20,7 +18,7 @@ public class GravityBehaviour : MonoBehaviour
 
     //Rigidbody2D of the gameobject
     Rigidbody2D rb;
-    //Rigidbody2D of other entities that aply a force on this object
+    //Rigidbody2D of other entities that apply a force on this object
     Rigidbody2D[] rbEntity;
 
     //The displacement of all other entities relative to this gameobject
@@ -34,6 +32,7 @@ public class GravityBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManagerScript>();
         gravitationalConstant = gameManager.GetComponent<GameManagerScript>().gravitationalConstant;
 
         //Calls a void function to initialise all of the entities
@@ -42,10 +41,8 @@ public class GravityBehaviour : MonoBehaviour
         //Sets the entityArrayLength to the length of the array of entities (Variable is used below)
         entityArrayLength = entities.Length;
         //Uses the entityArrayLength to determine the length of the arrays containing:
-        //entity transforms
         //entity rigidbodies
         //entity displacements
-        entityTransform = new Vector3[entityArrayLength];
         rbEntity = new Rigidbody2D[entityArrayLength];
         displacement = new float[entityArrayLength];
 
@@ -91,9 +88,10 @@ public class GravityBehaviour : MonoBehaviour
             if (entity.layer.Equals(9))
             {
                 //Sets the position and rigidbody component of the entity at the point in the array index i
-                entityTransform[i] = entity.transform.position;
 
-                displacement[i] = (entityTransform[i] - gameObject.transform.position).magnitude;
+                displacement[i] = (entity.transform.position - gameObject.transform.position).magnitude;
+
+                Debug.Log(gameObject.transform.position);
 
                 massScaling = entity.GetComponent<MassScalingScript>();
 
@@ -105,7 +103,7 @@ public class GravityBehaviour : MonoBehaviour
                     //Calculates the displacement from the entity by finding the magnitude of the difference of 2 vectors:
                     //Its current transform and the transform of the other entity
                     //Calculates the direction of the force
-                    forceDirection = entityTransform[i] - gameObject.transform.position;
+                    forceDirection = entity.transform.position - gameObject.transform.position;
 
                     //Calculates the magnitude of the force using the equation Gm1m2/d^2
                     //Where: 
@@ -113,8 +111,9 @@ public class GravityBehaviour : MonoBehaviour
                     //m2 is the mass of the other entity
                     //d is displacement
                     //and G is the gravitational constant that can be tweaked to adjust the strength of the gravitational field
-                    forceMagnitude = gravitationalConstant * ((rb.mass * rbEntity[i].mass) / Mathf.Pow(displacement[i], 2));
+                    forceMagnitude = ((gravitationalConstant * rb.mass * rbEntity[i].mass) / Mathf.Pow(displacement[i], 2));
 
+                    //Debug.Log(displacement[i]);
                     //This condition is used to prevent NaN errors cuased by dividing by 0
                     //Checks to see if the displacement is not zero
                     //if the displacement is zero then the magnitude of the force is set to 0
@@ -123,7 +122,7 @@ public class GravityBehaviour : MonoBehaviour
 
                     //Applies the for on the gameobjects rigidbody as a normalised direction multiplied by the magnitude of the force
                     rb.AddForce(forceDirection.normalized * forceMagnitude);
-                    Debug.Log("Force Frame: " + Time.frameCount + " Force Acting: " + (forceDirection.normalized * forceMagnitude));
+                    //Debug.Log("Force Frame: " + Time.frameCount + " Force Acting: " + (forceMagnitude));
 
                     //increments the index
                     i += 1;

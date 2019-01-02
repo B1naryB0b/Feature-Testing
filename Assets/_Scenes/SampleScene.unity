@@ -377,6 +377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialVel: {x: 0, y: 0}
   entities: []
+  pointer: {fileID: 46676556}
 --- !u!114 &197306585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,6 +603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialVel: {x: 0, y: 0.5}
   entities: []
+  pointer: {fileID: 0}
 --- !u!58 &557041039
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1046,7 +1048,7 @@ GameObject:
   - component: {fileID: 1571820091}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
