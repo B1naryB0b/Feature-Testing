@@ -91,7 +91,7 @@ public class GravityBehaviour : MonoBehaviour
 
                 displacement[i] = (entity.transform.position - gameObject.transform.position).magnitude;
 
-                Debug.Log(gameObject.transform.position);
+                //Debug.Log(gameObject.transform.position);
 
                 massScaling = entity.GetComponent<MassScalingScript>();
 

@@ -15,6 +15,7 @@ public class GameManagerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        float fps = 1 / Time.deltaTime;
+        Debug.Log(fps);
     }
 }
