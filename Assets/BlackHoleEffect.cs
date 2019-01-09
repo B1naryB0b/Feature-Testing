@@ -10,6 +10,7 @@ public class BlackHoleEffect : MonoBehaviour
     public Transform blackHole;
     public float ratio;
     public float radius;
+    public float strength;
 
     //private settings
     Camera cam;
@@ -59,6 +60,7 @@ public class BlackHoleEffect : MonoBehaviour
                 _material.SetFloat("_Ratio", ratio);
                 _material.SetFloat("_Rad", radius);
                 _material.SetFloat("_Distance", Vector3.Distance(blackHole.position, transform.position));
+                _material.SetFloat("_Strength", strength);
 
                 Graphics.Blit(source, destination, material);
                 

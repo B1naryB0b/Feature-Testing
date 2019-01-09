@@ -25,6 +25,7 @@ Shader "Hidden/BlackHoleShader"
 			uniform float _Rad;
 			uniform float _Ratio;
 			uniform float _Distance;
+			uniform float _Strength;
 
 			struct v2f {
 				float4 pos : POSITION;
@@ -42,7 +43,7 @@ Shader "Hidden/BlackHoleShader"
 				float2 offset = i.uv - _Position;
 				float2 ratio = (_Ratio, 1);
 				float rad = length(offset / ratio);
-				float deformation = 1 / pow(rad * pow(_Distance, 0.5), 2) * _Rad * 0.1;
+				float deformation = 1 / pow(rad * pow(_Distance, 0.5), 2) * _Rad * _Strength;
 
 				offset = offset * (1 - deformation);
 				offset += _Position;

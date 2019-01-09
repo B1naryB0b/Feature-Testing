@@ -9,9 +9,13 @@ public class MeshGenerator : MonoBehaviour
 
     Vector3[] verticies;
     int[] triangles;
+    public EntityProperties[] entityProperties;
 
     public int xSize = 20;
     public int zSize = 20;
+    public float resolution;
+    float y;
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,10 +23,11 @@ public class MeshGenerator : MonoBehaviour
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
 
-        StartCoroutine(CreateShape());
+        /*StartCoroutine(*/
+        CreateShape();//);
     }
 
-    IEnumerator CreateShape()
+    /*IEnumerator*/void CreateShape()
     {
         verticies = new Vector3[(xSize + 1) * (zSize + 1)];
 
@@ -30,7 +35,11 @@ public class MeshGenerator : MonoBehaviour
         {
             for (int x = 0; x <= xSize; x++)
             {
-                verticies[i] = new Vector3(x, 0, z);
+                foreach (EntityProperties entity in entityProperties)
+                {
+                    y = entity.mass / Mathf.Pow((new Vector3(entity.Entity.transform.position.x, 0, entity.Entity.transform.position.z) - new Vector3(x * (1 / resolution), 0, z * (1 / resolution))).magnitude * entity.spread, 2) + 1;  
+                }
+                verticies[i] = new Vector3(x * (1 / resolution), -y, z * (1 / resolution));
                 i++;
             }
         }
@@ -54,7 +63,7 @@ public class MeshGenerator : MonoBehaviour
                 vert++;
                 tris += 6;
 
-                yield return new WaitForSeconds(.1f);
+                //yield return new WaitForSeconds(.001f);
             }
             vert++;
         }
@@ -72,7 +81,7 @@ public class MeshGenerator : MonoBehaviour
         mesh.RecalculateNormals();
     }
 
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()
     {
 
         if (verticies == null)
@@ -81,11 +90,12 @@ public class MeshGenerator : MonoBehaviour
         {
             Gizmos.DrawSphere(verticies[i], .1f);
         }
-    }
+    }*/
 
     // Update is called once per frame
     void Update()
     {
+        CreateShape();
         UpdateMesh();
 
     }

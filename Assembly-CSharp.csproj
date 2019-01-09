@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BlackHoleEffect.cs" />
+    <Compile Include="Assets\EntityProperties.cs" />
     <Compile Include="Assets\MeshGenerator.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\EnergyBar.cs" />
