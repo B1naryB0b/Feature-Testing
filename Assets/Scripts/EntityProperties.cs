@@ -7,7 +7,11 @@ public class EntityProperties
 {
 
     public GameObject Entity;
+    [Range(0, 10)]
     public float mass;
+    [Range(0, 3)]
+    public float gravitySpread;
+    [HideInInspector]
     public float spread;
 
     Rigidbody rb;

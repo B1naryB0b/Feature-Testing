@@ -15,6 +15,7 @@ public class MeshGenerator : MonoBehaviour
     public int zSize = 20;
     public float resolution;
     float y;
+    float res;
 
 
     // Start is called before the first frame update
@@ -30,6 +31,8 @@ public class MeshGenerator : MonoBehaviour
     /*IEnumerator*/void CreateShape()
     {
         verticies = new Vector3[(xSize + 1) * (zSize + 1)];
+        res = 1 / resolution;
+        
 
         for (int i = 0, z = 0; z <= zSize; z++)
         {
@@ -37,9 +40,11 @@ public class MeshGenerator : MonoBehaviour
             {
                 foreach (EntityProperties entity in entityProperties)
                 {
-                    y = entity.mass / Mathf.Pow((new Vector3(entity.Entity.transform.position.x, 0, entity.Entity.transform.position.z) - new Vector3(x * (1 / resolution), 0, z * (1 / resolution))).magnitude * entity.spread, 2) + 1;  
+                    entity.spread = 1 / entity.gravitySpread;
+                    Vector3 entityPos = entity.Entity.transform.position;
+                    y = entity.mass / Mathf.Pow((new Vector3(entityPos.x, 0, entityPos.z) - new Vector3(x * res, 0, z * res)).magnitude * entity.spread, 2) + 1;  
                 }
-                verticies[i] = new Vector3(x * (1 / resolution), -y, z * (1 / resolution));
+                verticies[i] = new Vector3(x * res, -y, z * res);
                 i++;
             }
         }
@@ -79,6 +84,7 @@ public class MeshGenerator : MonoBehaviour
         mesh.triangles = triangles;
 
         mesh.RecalculateNormals();
+        
     }
 
     /*private void OnDrawGizmos()
