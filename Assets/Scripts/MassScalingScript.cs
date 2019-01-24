@@ -11,7 +11,7 @@ public class MassScalingScript : MonoBehaviour
     public float negligibilityDistance;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
         negligibilityDistance = Mathf.Sqrt(rb.mass / forceThreshold);

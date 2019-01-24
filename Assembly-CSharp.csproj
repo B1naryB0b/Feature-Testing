@@ -61,8 +61,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BlackHoleEffect.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\EnergyBar.cs" />
+    <Compile Include="Assets\Scripts\GameManagerScript.cs" />
     <Compile Include="Assets\Scripts\GravityBehaviour.cs" />
     <Compile Include="Assets\Scripts\MassScalingScript.cs" />
     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
@@ -72,6 +74,7 @@
     <Compile Include="Assets\Scripts\Spare\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Spare\PauseScript.cs" />
     <Compile Include="Assets\Scripts\Spare\SplashScreen.cs" />
+    <None Include="Assets\BlackHoleShader.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/owner/Documents/GitHub/Feature-Testing/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
