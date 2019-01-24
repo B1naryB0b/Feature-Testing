@@ -339,6 +339,7 @@ MonoBehaviour:
   blackHole: {fileID: 487827025}
   ratio: 10
   radius: 0.25
+  strength: 0.1
 --- !u!1 &1978987935
 GameObject:
   m_ObjectHideFlags: 0
