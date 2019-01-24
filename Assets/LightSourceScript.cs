@@ -7,7 +7,9 @@ public class LightSourceScript : MonoBehaviour
     Mesh mesh;
 
     float displacement;
+    float displacementVector;
     float length;
+    float lengthVector;
     float/*[]*/ radius;
     Vector3[] lightVerts;
 
@@ -36,11 +38,25 @@ public class LightSourceScript : MonoBehaviour
 
         for (int i = 0; i <= lightVerts.Length - 1; i++)
         {
-           
-            displacement = (radius * radius) / (gameObject.transform.position - castingObject.transform.position).magnitude;
+
+            Vector3 distance = gameObject.transform.position - castingObject.transform.position;
+            //displacement = (radius * radius) / (distance).magnitude;
             length = Mathf.Sqrt((radius * radius) - (displacement * displacement));
 
-            lightVerts[i] = new Vector3(length + castingObject.transform.position.x, displacement + castingObject.transform.position.y, 0);
+            //float angle = Mathf.Acos(Mathf.Abs((gameObject.transform.position.y - castingObject.transform.position.y)) / distance.magnitude);
+
+            //lengthVector = length * Mathf.Cos(angle) - displacement * Mathf.Sin(angle);
+            //displacementVector = length * Mathf.Sin(angle) + displacement * Mathf.Cos(angle);
+            float dist = (gameObject.transform.position - castingObject.transform.position).magnitude;
+            float radiusSqr = Mathf.Pow(radius, 2);
+            float distanceSqr = Mathf.Pow(dist, 2);
+
+            lengthVector = Mathf.Sqrt((Mathf.Pow(gameObject.transform.position.x - castingObject.transform.position.x, 2) + Mathf.Pow(gameObject.transform.position.y - castingObject.transform.position.y, 2)
+                + radiusSqr - distanceSqr) / (1 + (radiusSqr / distanceSqr))) + castingObject.transform.position.x;
+
+            displacementVector = (radius * (lengthVector - castingObject.transform.position.x) / dist) + castingObject.transform.position.y;
+
+            lightVerts[i] = new Vector3(lengthVector + castingObject.transform.position.x, displacementVector + castingObject.transform.position.y, 0);
         }
 
         

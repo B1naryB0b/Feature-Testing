@@ -11,6 +11,8 @@ public class GravityBehaviour : MonoBehaviour
     //All entities that exert a force on the object
     public GameObject[] entities;
 
+    public bool isStatic;
+
     //Magnitude of the force applied
     float forceMagnitude;
     //Direction of the force applied
@@ -32,6 +34,15 @@ public class GravityBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (!isStatic)
+        {
+            Initialisation();
+
+        }
+    }
+
+    void Initialisation()
+    {
         gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManagerScript>();
         gravitationalConstant = gameManager.GetComponent<GameManagerScript>().gravitationalConstant;
 
@@ -51,10 +62,9 @@ public class GravityBehaviour : MonoBehaviour
 
         //sets the initial velicity of the gameobject
         rb.velocity = initialVel;
-      
+
         //Calls a void function to apply a force on the gameobject
         ForceForEachEntity();
-       
     }
 
     // Update is called once per frame
