@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
-    serializedVersion: 11
+    serializedVersion: 10
     m_Resolution: 2
     m_BakeResolution: 32
     m_AtlasSize: 512
@@ -62,7 +62,6 @@ LightmapSettings:
     m_AOMaxDistance: 1
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0.3
-    m_ExtractAmbientOcclusion: 0
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 0
@@ -77,13 +76,10 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 256
     m_PVRBounces: 2
-    m_PVRFilteringMode: 2
-    m_PVRDenoiserTypeDirect: 0
-    m_PVRDenoiserTypeIndirect: 0
-    m_PVRDenoiserTypeAO: 0
     m_PVRFilterTypeDirect: 0
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 2
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
@@ -92,7 +88,6 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-    m_ExportTrainingData: 0
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -252,7 +247,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -272,9 +267,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -282,7 +274,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -403,7 +395,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -415,7 +407,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -435,9 +427,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -445,7 +434,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -566,7 +555,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -578,7 +567,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -598,9 +587,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -608,7 +594,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -729,7 +715,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -869,7 +855,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -889,9 +875,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -899,7 +882,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -1020,7 +1003,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -1319,7 +1302,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -1339,9 +1322,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -1349,7 +1329,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -1470,7 +1450,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -1866,7 +1846,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -1886,9 +1866,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -1896,7 +1873,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -2017,7 +1994,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -2029,7 +2006,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -2049,9 +2026,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -2059,7 +2033,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -2180,7 +2154,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -2320,7 +2294,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -2340,9 +2314,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -2350,7 +2321,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -2471,7 +2442,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -2483,7 +2454,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -2503,9 +2474,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -2513,7 +2481,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -2634,7 +2602,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -2686,7 +2654,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 165335743}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2701,20 +2668,17 @@ MonoBehaviour:
     m_NormalColor: {r: 0, g: 1, b: 0.041554213, a: 1}
     m_HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
     m_PressedColor: {r: 1, g: 0, b: 0, a: 1}
-    m_SelectedColor: {r: 1, g: 0, b: 0, a: 1}
     m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
     m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 0
   m_TargetGraphic: {fileID: 1755007007}
@@ -3496,7 +3460,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 197306579}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 30b8354a0f766ed45b0b0d0441d80c9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -3512,7 +3475,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 197306579}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 6329e4295d6680a49b516aca4c8b3359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -3527,7 +3489,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 197306579}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 233fe2e54a7ee5046a2bc66318809991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -3545,7 +3506,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -3565,9 +3526,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -3575,7 +3533,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -3696,7 +3654,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -3985,7 +3943,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 253611928}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 808c1c3968abe54418bb6ad4dd08a3db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -4184,7 +4141,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4204,9 +4161,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -4214,7 +4168,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -4335,7 +4289,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -4347,7 +4301,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4367,9 +4321,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -4377,7 +4328,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -4498,7 +4449,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -4510,7 +4461,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4530,9 +4481,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -4540,7 +4488,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -4661,7 +4609,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -4801,7 +4749,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4821,9 +4769,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -4831,7 +4776,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -4952,7 +4897,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -4964,7 +4909,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -4984,9 +4929,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -4994,7 +4936,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -5115,7 +5057,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -5383,7 +5325,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -5403,9 +5345,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -5413,7 +5352,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -5534,7 +5473,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -5625,7 +5564,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -5645,9 +5584,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -5655,7 +5591,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -5776,7 +5712,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -5788,7 +5724,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -5808,9 +5744,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -5818,7 +5751,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -5939,7 +5872,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -6207,7 +6140,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6227,9 +6160,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -6237,7 +6167,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -6358,7 +6288,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -6409,7 +6339,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 379272358}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -6445,7 +6374,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6465,9 +6394,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -6475,7 +6401,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -6596,7 +6522,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -6608,7 +6534,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6628,9 +6554,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -6638,7 +6561,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -6759,7 +6682,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -6771,7 +6694,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -6791,9 +6714,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -6801,7 +6721,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -6922,7 +6842,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -7190,7 +7110,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -7210,9 +7130,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -7220,7 +7137,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -7341,7 +7258,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -7609,7 +7526,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -7629,9 +7546,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -7639,7 +7553,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -7760,7 +7674,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -7772,7 +7686,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -7792,9 +7706,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -7802,7 +7713,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -7923,7 +7834,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -8319,7 +8230,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -8339,9 +8250,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -8349,7 +8257,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -8470,7 +8378,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -8610,7 +8518,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -8630,9 +8538,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -8640,7 +8545,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -8761,7 +8666,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -8773,7 +8678,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -8793,9 +8698,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -8803,7 +8705,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -8924,7 +8826,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -8959,7 +8861,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 557041037}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 30b8354a0f766ed45b0b0d0441d80c9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -9075,7 +8976,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 557041037}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 6329e4295d6680a49b516aca4c8b3359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -9344,7 +9244,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -9364,9 +9264,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -9374,7 +9271,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -9495,7 +9392,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -9507,7 +9404,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -9527,9 +9424,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -9537,7 +9431,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -9658,7 +9552,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -9798,7 +9692,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -9818,9 +9712,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -9828,7 +9719,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -9949,7 +9840,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -10224,7 +10115,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -10244,9 +10135,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -10254,7 +10142,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -10375,7 +10263,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -10387,7 +10275,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -10407,9 +10295,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -10417,7 +10302,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -10538,7 +10423,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -10550,7 +10435,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -10570,9 +10455,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -10580,7 +10462,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -10701,7 +10583,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -10713,7 +10595,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -10733,9 +10615,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -10743,7 +10622,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -10864,7 +10743,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -10876,7 +10755,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -10896,9 +10775,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -10906,7 +10782,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -11027,7 +10903,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -11039,7 +10915,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11059,9 +10935,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -11069,7 +10942,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -11190,7 +11063,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -11202,7 +11075,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11222,9 +11095,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -11232,7 +11102,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -11353,7 +11223,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -11493,7 +11363,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11513,9 +11383,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -11523,7 +11390,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -11644,7 +11511,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -11656,7 +11523,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -11676,9 +11543,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -11686,7 +11550,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -11807,7 +11671,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -12203,7 +12067,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -12223,9 +12087,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -12233,7 +12094,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -12354,7 +12215,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -12878,7 +12739,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -12898,9 +12759,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -12908,7 +12766,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -13029,7 +12887,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -13169,7 +13027,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -13189,9 +13047,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -13199,7 +13054,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -13320,7 +13175,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -13716,7 +13571,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -13736,9 +13591,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -13746,7 +13598,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -13867,7 +13719,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -14135,7 +13987,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -14155,9 +14007,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -14165,7 +14014,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -14286,7 +14135,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -14554,7 +14403,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -14574,9 +14423,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -14584,7 +14430,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -14705,7 +14551,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -14717,7 +14563,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -14737,9 +14583,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -14747,7 +14590,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -14868,7 +14711,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -15008,7 +14851,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -15028,9 +14871,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -15038,7 +14878,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -15159,7 +14999,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -15299,7 +15139,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -15319,9 +15159,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -15329,7 +15166,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -15450,7 +15287,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -15462,7 +15299,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -15482,9 +15319,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -15492,7 +15326,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -15613,7 +15447,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -15625,7 +15459,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -15645,9 +15479,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -15655,7 +15486,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -15776,7 +15607,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -15916,7 +15747,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -15936,9 +15767,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -15946,7 +15774,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -16067,7 +15895,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -16207,7 +16035,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -16227,9 +16055,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -16237,7 +16062,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -16358,7 +16183,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -16370,7 +16195,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -16390,9 +16215,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -16400,7 +16222,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -16521,7 +16343,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -16533,7 +16355,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -16553,9 +16375,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -16563,7 +16382,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -16684,7 +16503,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -16696,7 +16515,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -16716,9 +16535,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -16726,7 +16542,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -16847,7 +16663,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -16859,7 +16675,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -16879,9 +16695,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -16889,7 +16702,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -17010,7 +16823,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -17593,7 +17406,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1061952407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 6329e4295d6680a49b516aca4c8b3359, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -17608,7 +17420,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1061952407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 30b8354a0f766ed45b0b0d0441d80c9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -17942,7 +17753,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -17962,9 +17773,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -17972,7 +17780,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -18093,7 +17901,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -18489,7 +18297,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -18509,9 +18317,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -18519,7 +18324,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -18640,7 +18445,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -19036,7 +18841,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -19056,9 +18861,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -19066,7 +18868,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -19187,7 +18989,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -19232,7 +19034,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -19252,9 +19054,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -19262,7 +19061,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -19383,7 +19182,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -19561,7 +19360,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -19581,9 +19380,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -19591,7 +19387,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -19712,7 +19508,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -19724,7 +19520,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -19744,9 +19540,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -19754,7 +19547,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -19875,7 +19668,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -20015,7 +19808,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -20035,9 +19828,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -20045,7 +19835,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -20166,7 +19956,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -20178,7 +19968,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -20198,9 +19988,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -20208,7 +19995,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -20329,7 +20116,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -20341,7 +20128,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -20361,9 +20148,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -20371,7 +20155,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -20492,7 +20276,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -20632,7 +20416,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -20652,9 +20436,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -20662,7 +20443,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -20783,7 +20564,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -20795,7 +20576,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -20815,9 +20596,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -20825,7 +20603,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -20946,7 +20724,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -21214,7 +20992,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -21234,9 +21012,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -21244,7 +21019,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -21365,7 +21140,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -21653,7 +21428,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288798843}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -21673,7 +21447,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288798843}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -21701,7 +21474,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -21721,9 +21494,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -21731,7 +21501,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -21852,7 +21622,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -21992,7 +21762,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -22012,9 +21782,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -22022,7 +21789,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -22143,7 +21910,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -22453,7 +22220,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f6a89ec55af86e143be5190acee569bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22488,7 +22255,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -22508,9 +22275,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -22518,7 +22282,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -22639,7 +22403,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -22651,7 +22415,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -22671,9 +22435,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -22681,7 +22442,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -22802,7 +22563,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -23070,7 +22831,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -23090,9 +22851,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -23100,7 +22858,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -23221,7 +22979,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -23361,7 +23119,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -23381,9 +23139,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -23391,7 +23146,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -23512,7 +23267,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -23524,7 +23279,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -23544,9 +23299,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -23554,7 +23306,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -23675,7 +23427,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -23729,7 +23481,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f6a89ec55af86e143be5190acee569bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23892,7 +23644,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -23912,9 +23664,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -23922,7 +23671,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -24043,7 +23792,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -24055,7 +23804,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -24075,9 +23824,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -24085,7 +23831,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -24206,7 +23952,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -24346,7 +24092,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -24366,9 +24112,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -24376,7 +24119,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -24497,7 +24240,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -24509,7 +24252,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -24529,9 +24272,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -24539,7 +24279,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -24660,7 +24400,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -24672,7 +24412,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -24692,9 +24432,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -24702,7 +24439,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -24823,7 +24560,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -24835,7 +24572,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -24855,9 +24592,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -24865,7 +24599,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -24986,7 +24720,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -25254,7 +24988,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -25274,9 +25008,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -25284,7 +25015,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -25405,7 +25136,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -25691,13 +25422,12 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556592800}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 0.1
   m_Range: 10
   m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -25904,7 +25634,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1571820089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 0b6749217fcc9b8408f6005cff13ad37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -25916,7 +25645,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -25936,9 +25665,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -25946,7 +25672,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -26067,7 +25793,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -26079,7 +25805,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -26099,9 +25825,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -26109,7 +25832,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -26230,7 +25953,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -26242,7 +25965,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -26262,9 +25985,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -26272,7 +25992,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -26393,7 +26113,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -26533,7 +26253,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -26553,9 +26273,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -26563,7 +26280,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -26684,7 +26401,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -26696,7 +26413,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -26716,9 +26433,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -26726,7 +26440,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -26847,7 +26561,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -27115,7 +26829,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -27135,9 +26849,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -27145,7 +26856,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -27266,7 +26977,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -27406,7 +27117,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -27426,9 +27137,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -27436,7 +27144,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -27557,7 +27265,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -27605,7 +27313,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -27625,9 +27333,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -27635,7 +27340,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -27756,7 +27461,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -27896,7 +27601,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -27916,9 +27621,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -27926,7 +27628,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -28047,7 +27749,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -28059,7 +27761,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -28079,9 +27781,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -28089,7 +27788,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -28210,7 +27909,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -28350,7 +28049,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -28370,9 +28069,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -28380,7 +28076,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -28501,7 +28197,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -28769,7 +28465,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -28789,9 +28485,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -28799,7 +28492,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -28920,7 +28613,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -28932,7 +28625,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -28952,9 +28645,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -28962,7 +28652,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -29083,7 +28773,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -29351,7 +29041,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -29371,9 +29061,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -29381,7 +29068,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -29502,7 +29189,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -29898,7 +29585,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -29918,9 +29605,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -29928,7 +29612,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -30049,7 +29733,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -30100,7 +29784,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1755007005}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -30136,7 +29819,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -30156,9 +29839,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -30166,7 +29846,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -30287,7 +29967,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -30299,7 +29979,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -30319,9 +29999,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -30329,7 +30006,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -30450,7 +30127,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -30462,7 +30139,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -30482,9 +30159,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -30492,7 +30166,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -30613,7 +30287,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -30753,7 +30427,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -30773,9 +30447,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -30783,7 +30454,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -30904,7 +30575,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -30916,7 +30587,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -30936,9 +30607,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -30946,7 +30614,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -31067,7 +30735,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -31207,7 +30875,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -31227,9 +30895,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -31237,7 +30902,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -31358,7 +31023,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -31498,7 +31163,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -31518,9 +31183,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -31528,7 +31190,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -31649,7 +31311,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -31789,7 +31451,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -31809,9 +31471,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -31819,7 +31478,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -31940,7 +31599,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -31952,7 +31611,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -31972,9 +31631,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -31982,7 +31638,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -32103,7 +31759,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -32371,7 +32027,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -32391,9 +32047,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -32401,7 +32054,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -32522,7 +32175,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -32534,7 +32187,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -32554,9 +32207,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -32564,7 +32214,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -32685,7 +32335,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -32825,7 +32475,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -32845,9 +32495,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -32855,7 +32502,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -32976,7 +32623,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -33148,10 +32795,9 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -33202,12 +32848,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1939506867}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: d1a55b84ad298bf44b64d7fa61044007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 197306582}
-  smoothSpeed: 10
+  smoothSpeed: 3
   offset: {x: 0, y: 0, z: -30}
 --- !u!1 &1940597950
 GameObject:
@@ -33238,7 +32883,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1940597950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -33256,7 +32900,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1940597950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -33320,7 +32963,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1940597950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 7c4af0a90fea5954db320d29536b8f10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -33334,7 +32976,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -33354,9 +32996,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -33364,7 +33003,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -33485,7 +33124,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -33497,7 +33136,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -33517,9 +33156,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -33527,7 +33163,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -33648,7 +33284,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -33788,7 +33424,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -33808,9 +33444,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -33818,7 +33451,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -33939,7 +33572,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -34122,7 +33755,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f6a89ec55af86e143be5190acee569bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34555,7 +34188,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -34575,9 +34208,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -34585,7 +34215,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -34706,7 +34336,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -34846,7 +34476,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -34866,9 +34496,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -34876,7 +34503,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -34997,7 +34624,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -35137,7 +34764,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -35157,9 +34784,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -35167,7 +34791,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -35288,7 +34912,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -36494,7 +36118,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f6a89ec55af86e143be5190acee569bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -36529,7 +36153,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -36549,9 +36173,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -36559,7 +36180,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -36680,7 +36301,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -36820,7 +36441,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -36840,9 +36461,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -36850,7 +36468,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -36971,7 +36589,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -36983,7 +36601,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -37003,9 +36621,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -37013,7 +36628,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -37134,7 +36749,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -37146,7 +36761,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -37166,9 +36781,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -37176,7 +36788,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -37297,7 +36909,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -37309,7 +36921,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -37329,9 +36941,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -37339,7 +36948,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -37460,7 +37069,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
@@ -37472,7 +37081,7 @@ Mesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  serializedVersion: 10
+  serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
@@ -37492,9 +37101,6 @@ Mesh:
   m_BindPose: []
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
   m_MeshCompression: 0
   m_IsReadable: 1
   m_KeepVertices: 1
@@ -37502,7 +37108,7 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 020001000000
   m_VertexData:
-    serializedVersion: 3
+    serializedVersion: 2
     m_VertexCount: 3
     m_Channels:
     - stream: 0
@@ -37623,7 +37229,7 @@ Mesh:
   m_BakedTriangleCollisionMesh: 
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
+  m_MeshOptimized: 0
   m_StreamData:
     offset: 0
     size: 0
