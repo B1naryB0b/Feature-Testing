@@ -4,12 +4,22 @@ using UnityEngine;
 
 public class ResourceCollectionScript : MonoBehaviour
 {
-    PlayerResources resources;
+    EntityResources resources;
+    GameObject player;
 
     // Start is called before the first frame update
     void Start()
     {
-        resources = GetComponent<PlayerResources>();
+        resources = GetComponent<EntityResources>();
+        player = GameObject.FindGameObjectWithTag("Player");
+    }
+
+    public void CollisionDetected(CollisionDetectionScript collision)
+    {
+        if (collision.gameObject == player)
+        {
+
+        }
     }
 
     // Update is called once per frame
