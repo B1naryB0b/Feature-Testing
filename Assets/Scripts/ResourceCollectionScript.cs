@@ -4,22 +4,30 @@ using UnityEngine;
 
 public class ResourceCollectionScript : MonoBehaviour
 {
-    EntityResources resources;
-    GameObject player;
+
+    public float collectionRate;
+
+    public EntityResources player;
+    public EntityResources[] resources;
+
+    [HideInInspector]
+    public GameObject playerObj;
 
     // Start is called before the first frame update
     void Start()
     {
-        resources = GetComponent<EntityResources>();
-        player = GameObject.FindGameObjectWithTag("Player");
+        //resources = GetComponent<EntityResources>();
+        //player = GameObject.FindGameObjectWithTag("Player");
+
+        playerObj = GameObject.FindGameObjectWithTag("Player");
+        Debug.Log(playerObj);
     }
 
-    public void CollisionDetected(CollisionDetectionScript collision)
+    public void CollisionDetected(CollisionDetectionScript collision, EntityResources resourceObject)
     {
-        if (collision.gameObject == player)
-        {
-
-        }
+        //resourceObject.
+        Debug.Log("collected");
+        Destroy(resourceObject.entity);
     }
 
     // Update is called once per frame

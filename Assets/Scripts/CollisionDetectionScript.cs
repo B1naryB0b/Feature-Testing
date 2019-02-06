@@ -4,10 +4,33 @@ using UnityEngine;
 
 public class CollisionDetectionScript : MonoBehaviour
 {
+    ResourceCollectionScript resourceCollection;
+    [HideInInspector]
+    public EntityResources entityResource;
 
-    private void OnTriggerStay(Collider other)
+    void Start()
     {
-        transform.parent.GetComponent<ResourceCollectionScript>().CollisionDetected(this);
+        resourceCollection = GameObject.FindGameObjectWithTag("GameController").GetComponent<ResourceCollectionScript>();
+
+        for (int j = 0; j < resourceCollection.resources.Length; j++)
+        {
+            if (resourceCollection.resources[j].entity == gameObject)
+            {
+                entityResource = resourceCollection.resources[j];
+            }
+        }
+        Debug.Log(entityResource);
+        Debug.Log(resourceCollection);
+        Debug.Log(resourceCollection.playerObj);
+
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject == resourceCollection.playerObj)
+        {
+            resourceCollection.CollisionDetected(this, entityResource);
+        }
     }
 
 }

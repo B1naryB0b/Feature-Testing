@@ -14240,6 +14240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1571820090}
   - component: {fileID: 1571820091}
+  - component: {fileID: 1571820092}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameController
@@ -14275,6 +14276,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravitationalConstant: 0.5
+--- !u!114 &1571820092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571820089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d36a127c9d90f9341a053436173f873c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectionRate: 0
+  player:
+    entity: {fileID: 4274236482776977377, guid: 4b990ace3673af04d8d26923fcb41227,
+      type: 3}
+    water: 0
+    energy: 0
+    atmosphere: 0
+    destructible: 0
+    selections: 00000000
+  resources:
+  - entity: {fileID: 3792892300954864139, guid: 5659a512ba5c8eb4d816723723c9beb1,
+      type: 3}
+    water: 1
+    energy: 0
+    atmosphere: 0
+    destructible: 0
+    selections: 
+  playerObj: {fileID: 0}
 --- !u!43 &1574497127
 Mesh:
   m_ObjectHideFlags: 0
@@ -20996,6 +21027,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792892300954864137, guid: 5659a512ba5c8eb4d816723723c9beb1,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5659a512ba5c8eb4d816723723c9beb1, type: 3}
