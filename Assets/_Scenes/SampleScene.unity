@@ -14289,6 +14289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collectionRate: 0
+  gravity: {fileID: 0}
   player:
     entity: {fileID: 4274236482776977377, guid: 4b990ace3673af04d8d26923fcb41227,
       type: 3}

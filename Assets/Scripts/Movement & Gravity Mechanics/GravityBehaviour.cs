@@ -41,7 +41,7 @@ public class GravityBehaviour : MonoBehaviour
         }
     }
 
-    void Initialisation()
+    public void Initialisation()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManagerScript>();
         gravitationalConstant = gameManager.GetComponent<GameManagerScript>().gravitationalConstant;
@@ -95,7 +95,7 @@ public class GravityBehaviour : MonoBehaviour
         foreach (GameObject entity in entities)
         {
             //Check to see if the gameobject in the entities array is in the entities layer
-            if (entity.layer.Equals(9))
+            if (entity != null && entity.layer.Equals(9))
             {
                 //Sets the position and rigidbody component of the entity at the point in the array index i
 

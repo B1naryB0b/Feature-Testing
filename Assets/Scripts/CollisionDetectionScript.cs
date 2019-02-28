@@ -14,11 +14,12 @@ public class CollisionDetectionScript : MonoBehaviour
 
         for (int j = 0; j < resourceCollection.resources.Length; j++)
         {
-            if (resourceCollection.resources[j].entity == gameObject)
+            if (resourceCollection.resources[j].entity.name == gameObject.name)
             {
                 entityResource = resourceCollection.resources[j];
             }
         }
+
         Debug.Log(entityResource);
         Debug.Log(resourceCollection);
         Debug.Log(resourceCollection.playerObj);
@@ -29,7 +30,7 @@ public class CollisionDetectionScript : MonoBehaviour
     {
         if (other.gameObject == resourceCollection.playerObj)
         {
-            resourceCollection.CollisionDetected(this, entityResource);
+            resourceCollection.CollisionDetected(this, entityResource, gameObject);
         }
     }
 

@@ -7,6 +7,8 @@ public class ResourceCollectionScript : MonoBehaviour
 
     public float collectionRate;
 
+    GravityBehaviour gravity;
+
     public EntityResources player;
     public EntityResources[] resources;
 
@@ -14,7 +16,7 @@ public class ResourceCollectionScript : MonoBehaviour
     public GameObject playerObj;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         //resources = GetComponent<EntityResources>();
         //player = GameObject.FindGameObjectWithTag("Player");
@@ -23,11 +25,13 @@ public class ResourceCollectionScript : MonoBehaviour
         Debug.Log(playerObj);
     }
 
-    public void CollisionDetected(CollisionDetectionScript collision, EntityResources resourceObject)
+    public void CollisionDetected(CollisionDetectionScript collision, EntityResources entityResources, GameObject resourceObject)
     {
         //resourceObject.
         Debug.Log("collected");
-        Destroy(resourceObject.entity);
+        Debug.Log(entityResources.entity);
+        Destroy(resourceObject);
+        gravity.Initialisation();
     }
 
     // Update is called once per frame
